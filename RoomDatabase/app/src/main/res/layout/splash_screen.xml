@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/back">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/sasken5"/>
+
+    <TextView
+        android:id="@+id/sasken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:text="Sasken"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:fontFamily="@font/ultra"
+        android:text="because I can"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/bc"/>
+
+</LinearLayout>

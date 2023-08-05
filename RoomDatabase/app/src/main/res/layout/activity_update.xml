@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DetailsUpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layout">
+
+
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:padding="10dp"
+            android:textColor="@color/black">
+
+        </EditText>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            android:id="@+id/usbtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Employee id"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            >
+
+        </EditText>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            android:id="@+id/idbtn"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Password"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            >
+
+        </EditText>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            android:id="@+id/pasbtn"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp">
+
+        </EditText>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            android:id="@+id/ebtn"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Update"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/btn_saveDetails"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="delete"
+        android:layout_marginLeft="130dp"
+        android:id="@+id/btn_DeleteDetails"/>
+
+</LinearLayout>
